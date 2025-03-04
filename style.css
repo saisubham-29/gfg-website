@@ -1,0 +1,480 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    .poppins-thin {
+        font-family: "Poppins", serif;
+        font-weight: 500;
+        font-style: normal;
+      }
+   
+      
+}
+
+.main {
+    margin: 20px;
+}
+
+.navbar {
+    z-index: 1;
+    position: relative; 
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: -75px 0 0 0; 
+    width: 100%;
+}
+
+
+.navbar ul div:first-child {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.navbar ul div:last-child {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.navbar ul li {
+    font-family: "poppins", serif;
+    font-weight:300 ;  
+    display: inline;
+    align-items: flex-start;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+.navbar img {
+    height: 250px;
+    width: 250px;
+}
+
+.gfghead {
+    position: relative;
+    margin-top: 0px; 
+}
+
+#gfg {
+    font-family: "Orbitron", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+    margin-left: 110px;
+    font-size: 100px;
+}
+
+#gfgtext { 
+    
+    font-family: "poppins", serif;
+    font-weight:300 ;
+    font-style: normal;
+    font-size:48px;
+    margin-top: -30px;
+    margin-left: 100px;
+}
+
+
+#logobw {
+    height: 1000px; 
+    width: 750px; 
+    margin-top: -500px;
+    
+}
+.num{
+    font-family: oswald;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    margin-left: 130px;
+    font-size: 100px;
+    display: inline-block;
+    transform: rotate(90deg);
+    position: relative;
+    top: 230px;
+    left: 50px;
+
+}
+.green{
+    height: 175px;
+    width: 770px;
+    background-color:rgba(2, 137, 97, 0.6);
+    
+    position: absolute;
+    right: 0;
+    top: 575px;
+    
+}
+.tagline{
+    font-family: "Orbitron", serif;
+    font-size: 25px;
+    width: 280px;
+    height: 130px;
+    position: absolute;
+    top: 280px;
+    right: -50px;
+    display: inline-block;
+    transform: rotate(90deg);
+}
+.main2 {
+    background-color: #F4F1E9;
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+    padding-top: 10px; 
+    display: flex;
+    flex-direction: column;
+
+}
+
+   
+.heading-type2 p {
+    font-family: "Orbitron", serif;
+    font-size: 80px;
+    font-weight: 600;
+    margin-left: 100px;
+    margin-top: 50px;
+    color: #028961;
+    text-transform: uppercase;
+}
+
+.events-container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px; 
+    margin: 50px 100px;
+    align-items: center;
+}
+
+.eventscard {
+    display: flex;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.eventscard img {
+    height: 400px;
+    width: 680px;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), 
+                0 6px 6px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.eventscard img:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.25), 
+                0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.eventtext {
+    max-width: 1500px;
+}
+
+.eventtext h2 {
+    font-family: "Orbitron", serif;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.eventtext p {
+    font-family: "Poppins", serif;
+    font-size: 30px;
+    color: gray;
+    font-weight: 300;
+}
+
+.eventtext p span {
+    color: #028961;
+}
+
+.gallery{
+    display: flex;
+    flex-direction: column;
+    gap: 50px; 
+    margin-top: 110px;
+    
+}
+.photos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(2, 1fr);                                
+    width: 100%;
+    max-width: 1200px;                     
+    margin: 180px 110px; 
+    justify-self: center;
+}
+.photos img{
+    height:850px ;
+    width: 850px;
+}
+.roleboard{  
+    height: 1200px;
+    gap: 20px;                            
+    width: 100%;
+    max-width: 1720px;                    
+    margin: 0 auto; 
+}
+.roleboard .heading-type2 p {
+    display: flex;
+    justify-content: center; /* Center the heading */
+    font-size: 90px;
+    text-align: center; /* Ensure text alignment */
+}
+
+.roleboard .roleboard-card{
+    display: flex; 
+    gap: 10px;
+    width: 100%;
+    max-width: 1800px;
+    height: 600px;                        
+    margin: 0 auto;
+    align-items: center;
+}
+.corosal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #028961;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+}
+.corosal img{
+    width: 520px;
+    height: 500px;
+   
+}
+
+
+roleboard-card {
+    display: flex;
+    align-items: center;         
+    justify-content: space-between;
+    gap: 20px;      
+}
+
+.roleboard-card .button img {
+    width: 120px;                  
+    height: 120px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+#right{
+    rotate: 180deg;
+}
+.button img {
+    width: 20px; /* Icon size */
+    height: 20px;
+}
+
+/* Adjust arrow positions */
+.button:first-child {
+    position: relative;
+    left: 20%; /* Move the left arrow closer */
+}
+
+.button:last-child {
+    position: relative;
+    right: 20% /* Move the right arrow closer */
+}
+.Name{
+    font-family: "Orbitron", serif;
+    font-size: 50px;
+    font-weight: 450;
+    justify-items: center;
+}
+.Desc{
+    font-family: "Poppins", serif;
+    font-size: 25px;
+    font-weight: 300;
+    color:#028961 ;
+    width: 900px;
+    height:20px ;
+    word-wrap: break-word;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: center; /* Center text itself */
+    margin: 0 auto;
+
+}
+.commas img{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    float: right;
+}
+ #rightcomma{
+    position: relative;
+    transform: scaleY(-1);
+    rotate: 180deg;
+    float: left;
+   
+}
+   
+
+
+.pontano-sans {
+    font-family: "Pontano Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.profile{
+    height:1400px;
+    width: 100%;
+    border-radius:50px;
+    background:#028961; 
+}
+.connectFormBox{
+   
+    height:1350px;
+    width: 100%;
+    border-radius: 50px 50px 0 0;
+    background:#F4F1E9; 
+    font-size: 35px;
+    font-family: poppins;
+    font-weight: 300;
+    padding: 5px 0;
+    margin-top:  100px;
+   
+}
+.connectForm{
+    margin: 20px;
+    margin-left: 130px;
+    margin-right: 100px;
+    margin-top: 40px;
+    
+}
+.connectForm input{
+    font-size:30px ;
+    font-weight: 200;
+    border-style: none;
+    width: 90%;
+    height: 50px;
+    border-bottom: 2px solid #000;
+    padding: 5px 0;      
+    background-color: #F4F1E9;
+    margin-right: 100px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.connectForm textarea {
+    font-size: 30px;
+    font-weight: 200;
+    border-style: none;
+    width: 90%;
+    height: 450px; 
+    border-bottom: 2px solid #000;
+    padding: 5px 0;
+    background-color: #F4F1E9;
+    margin-right: 100px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    resize: none; 
+}
+
+.connectForm textarea:hover {
+    border-bottom: 2px solid #000;
+    cursor: text;
+}
+
+.connectForm textarea:focus {
+    outline: none;
+    border-bottom: 2px solid #000;
+    cursor: text;
+}
+
+.connectForm textarea::placeholder {
+    color: #000;
+    font-size: 25px;
+    font-family: poppins;
+    font-weight: 300;
+    line-height: 20px;
+}
+.connectForm label{
+    font-size: 35px;
+    font-weight: 400;
+    padding-top: 20px;  
+    
+}
+.connectForm input:hover{
+    border-bottom: 2px solid #000;
+    cursor: text;
+}
+.connectForm input:focus{
+    outline: none;
+    border-bottom: 2px solid #000;
+    cursor: text;
+}
+.connectForm input::placeholder{
+    color: #000;
+    font-size: 25px;
+    font-family: poppins;
+    font-weight: 300;
+    line-height: 20px;
+}
+/* Center the button */
+#submitButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.connectForm button {
+    font-family: poppins;
+    height: 50px;
+    width: 300px;
+    font-weight: 300;
+    background-color: #028961;
+    color: white;
+    font-size: 25px;
+    border-radius: 10px;
+    border: 2px solid #028961;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    letter-spacing: 1px;
+
+}
+
+/* Hover effect */
+.connectForm button:hover {
+    background-color: #ffffff;
+    color: #028961;
+    border: 2px solid #028961;
+    box-shadow: 0 6px 12px rgba(2, 137, 97, 0.3);
+    transform: translateY(-2px);
+}
+
+/* Active (click) effect */
+.connectForm button:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 4px rgba(2, 137, 97, 0.2);
+}
+.footer {
+    height: 300px;
+    margin-top: 80px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: center; /* Ensure text alignment */
+    padding: 20px 100px;
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-size: 25px;
+}
