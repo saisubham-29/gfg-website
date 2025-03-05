@@ -10,6 +10,13 @@
    
       
 }
+body {
+    transform: scale(0.75);
+    transform-origin: top left;
+    width: 133.33%; 
+    overflow-x: hidden;
+    height: 100%;
+}
 
 .main {
     margin: 20px;
@@ -205,18 +212,25 @@
     margin-top: 110px;
     
 }
+.photosbox{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    
+}
 .photos{
     display: grid;
     grid-template-columns: repeat(2, 1fr); 
-    grid-template-rows: repeat(2, 1fr);                                
-    width: 100%;
-    max-width: 1200px;                     
-    margin: 180px 110px; 
+    grid-template-rows: repeat(2, 1fr);                                                   
+    margin: 110px 110px; 
     justify-self: center;
+    box-sizing: border-box; 
 }
-.photos img{
-    height:850px ;
-    width: 850px;
+.photos img {
+    width: 850px; /* Make images responsive */
+    height: 850px;  
 }
 .roleboard{  
     height: 1200px;
@@ -465,16 +479,19 @@ roleboard-card {
     box-shadow: 0 2px 4px rgba(2, 137, 97, 0.2);
 }
 .footer {
-    height: 300px;
+    height: 50px; /* Adjust height dynamically */
     margin-top: 80px;
     background-color: white;
     color: black;
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    text-align: center; /* Ensure text alignment */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     padding: 20px 100px;
     font-family: "Poppins", serif;
     font-weight: 300;
     font-size: 25px;
+}
+html{
+    max-height: 7000px;
 }
