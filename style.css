@@ -229,7 +229,7 @@ body {
     box-sizing: border-box; 
 }
 .photos img {
-    width: 850px; /* Make images responsive */
+    width: 850px;
     height: 850px;  
 }
 .roleboard{  
@@ -241,9 +241,9 @@ body {
 }
 .roleboard .heading-type2 p {
     display: flex;
-    justify-content: center; /* Center the heading */
+    justify-content: center; 
     font-size: 90px;
-    text-align: center; /* Ensure text alignment */
+    text-align: center; 
 }
 
 .roleboard .roleboard-card{
@@ -290,19 +290,19 @@ roleboard-card {
     rotate: 180deg;
 }
 .button img {
-    width: 20px; /* Icon size */
+    width: 20px; 
     height: 20px;
 }
 
-/* Adjust arrow positions */
+
 .button:first-child {
     position: relative;
-    left: 20%; /* Move the left arrow closer */
+    left: 20%; 
 }
 
 .button:last-child {
     position: relative;
-    right: 20% /* Move the right arrow closer */
+    right: 20% ;
 }
 .Name{
     font-family: "Orbitron", serif;
@@ -318,9 +318,9 @@ roleboard-card {
     width: 900px;
     height:20px ;
     word-wrap: break-word;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    text-align: center; /* Center text itself */
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
     margin: 0 auto;
 
 }
@@ -473,13 +473,13 @@ roleboard-card {
     transform: translateY(-2px);
 }
 
-/* Active (click) effect */
+
 .connectForm button:active {
     transform: translateY(1px);
     box-shadow: 0 2px 4px rgba(2, 137, 97, 0.2);
 }
 .footer {
-    height: 50px; /* Adjust height dynamically */
+    height: 50px;
     margin-top: 80px;
     background-color: white;
     color: black;
