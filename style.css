@@ -495,3 +495,27 @@ roleboard-card {
 html{
     max-height: 7000px;
 }
+/* Responsive Adjustments for Mobile Devices */
+@media (max-width: 768px) {
+    body {
+        transform: scale(0.55);
+        transform-origin: top left;
+        width: 181.81%;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        transform: scale(0.5);
+        transform-origin: top left;
+        width: 222.22%;
+    }
+
+    @media (max-width: 390px) {
+        body {
+            transform: scale(0.45);
+            transform-origin: top left;
+            width: 250%;
+        }
+    }
+}
