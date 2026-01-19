@@ -86,23 +86,8 @@ GFG-Website/
 
 <hr/>
 
-<!-- ================= PRO TIP ================= -->
-<h2>💡 Pro Tip (Preview Without iframe)</h2>
 
-<p style="line-height:1.6;">
-  GitHub does <b>not allow iframes</b> inside README files for security reasons.
-  The best professional alternative is to combine:
-</p>
 
-<ul>
-  <li>✅ A <b>Live Demo link</b></li>
-  <li>✅ A <b>Screenshot preview</b></li>
-</ul>
-
-<p>
-  This gives recruiters and reviewers a quick visual idea while allowing them
-  to explore the full website in a new tab.
-</p>
 
 <!-- ================= SCREENSHOT ================= -->
 <p align="center" style="margin-top:16px;">
