@@ -65,6 +65,27 @@
 
 <hr/>
 
+<!-- ================= PROJECT STRUCTURE ================= -->
+<h2>📂 Project Structure</h2>
+
+<pre style="
+  background:#0d1117;
+  color:#c9d1d9;
+  padding:16px;
+  border-radius:10px;
+  overflow-x:auto;
+  font-size:14px;
+">
+GFG-Website/
+│── screenshots/
+│   └── screenshot.png
+│── index.html
+│── style.css
+│── README.md
+</pre>
+
+<hr/>
+
 <!-- ================= PRO TIP ================= -->
 <h2>💡 Pro Tip (Preview Without iframe)</h2>
 
@@ -83,11 +104,11 @@
   to explore the full website in a new tab.
 </p>
 
-<!-- Screenshot placeholder -->
+<!-- ================= SCREENSHOT ================= -->
 <p align="center" style="margin-top:16px;">
   <img 
-    src="ADD_SCREENSHOT_URL_HERE"
-    alt="Website Preview"
+    src="./screenshots/screenshot.png"
+    alt="GFG Club Website Preview"
     width="800"
     style="border-radius:10px; box-shadow:0 6px 18px rgba(0,0,0,0.2);"
   />
